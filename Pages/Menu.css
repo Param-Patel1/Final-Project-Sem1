@@ -1,0 +1,60 @@
+.navbar {
+  margin-top: -20px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#Menu{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+  url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-fancy-coffee-background-material-image_134209.jpg");
+background-size: contain;
+background-position: center;
+}
+
+.hobbies__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.hobbies__card {
+  margin: 14px;
+  height: 487px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: aliceblue;
+  transition: 0.3s ease-in;
+}
+
+.hobbies__card:hover{
+  transition: 0.3s ease-in;
+  color: wheat;
+  background-color: black;
+  height: 495px;
+  width: 310px;
+}
+
+.hobbies__card pre:hover{
+  font-size: 0.9rem;
+}
+
+
+.hobbies__card {
+  color: black;
+}
+.hobbies__card p {
+  color: black;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+  padding: 5%;
+}
+

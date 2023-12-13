@@ -1,0 +1,126 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+h2 {
+  margin-top: 10px;
+}
+.wrapper {
+  display: flex;
+}
+
+.back-img {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-fancy-coffee-background-material-image_134209.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.navbar {
+  background-color: aliceblue;
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.logo {
+  height: 40px;
+  width: 130px;
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+.quote {
+  color: black;
+  width: 100%;
+  margin-top: 150px;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.quote h1 {
+  font-family: "Alkatra", cursive;
+}
+.explore-btn {
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.explore-btn:hover {
+  color: aliceblue;
+  background-color: #000;
+}
+
+form {
+  background-color: aliceblue;
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+input,
+textarea {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.review-button {
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #000;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+.review-button:hover {
+  /* font-size: 16px; */
+  color: aliceblue;
+  background-color: #000;
+}
+
+.input-fields {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}

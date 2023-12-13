@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles.css">
+    <title>Finca</title>
+    <script type="text/javascript" src="./Index.js" defer></script>
+    <link rel="stylesheet" href="./star.css">
+    <link rel="stylesheet" href="./Reviews.css">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="../Main.html"><img class='logo' src="../Resources/Finca_Logo.png"/></a>        
+            <ul>
+                <li><a href="/Pages/Menu.html">Menu</a></li>        
+                <li><a href="/Pages/Meals.html">Meals & Offers</a></li>        
+                <li><a href="#">Reviews</a></li>        
+                <li><a href="/Pages/ContactUs.html">Contact Us</a></li>        
+            </ul>
+        </div>
+    </header>
+        <main>
+<div class="back-img" style="padding-top: 70px; height: 100vh;">    
+        <section id="float">
+        <form>
+            <center><h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-bottom: 40px;">We Welcome Your Feedbacks Here!</h1>
+            </center>
+           <div class="input-fields">
+                <!-- <label for="name">Name: </label> -->
+                <input type="text" id="name" name="name" required placeholder="Name"><br>
+            </div>
+            <div class="input-fields">
+                <!-- <label for="email">Email: </label> -->
+                <input type="email" id="email" name="email" required placeholder="Email"><br>
+            </div>
+            <div class="rating">
+                <span class="rating__result"></span>
+                <i class="rating__star far fa-star"></i>
+                <i class="rating__star far fa-star"></i>
+                <i class="rating__star far fa-star"></i>
+                <i class="rating__star far fa-star"></i>
+                <i class="rating__star far fa-star"></i>
+              </div>
+              
+            
+            <div class="input-fields">
+                <!-- <label for="review">Review:</label> -->
+                <textarea id="review" name="review" rows="5" required placeholder="Give your Feedbacks"></textarea><br>
+            </div>
+            <center>
+            <button class="review-button" type="submit"  onclick ="function1()" id="reviewSubmit">SUBMIT</button>
+        </center>    
+        </form>
+        </section>
+    </div>
+    </main>
+    <!--------------------------------------------------------------->
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <a href="../Main.html"><img style=" margin-top: 30px;" class='logo'
+                        src="../Resources/Finca_Logo.png" /></a>
+            </div>
+            <div id="socials">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../Resources/Instagram.png"
+                        alt="Instagram" /></a>
+                <a style="padding-left: 20px;" href="https://www.linkedin.com/" target="_blank"><img src="../Resources/LinkedIn.png"
+                        alt="LinkedIn" /></a>
+                <a style="padding-left: 20px;" href="https://twitter.com/" target="_blank"><img src="../Resources/Twitter.svg"
+                        alt="Twitter" /></a>
+                <a href="https://humber.ca/purchasing/assets/documents/policies/standard-terms-conditions-2008-08-01.pdf"
+                    target="_blank">
+                    <h4 id="terms">Terms and Conditions</h4>
+                </a>
+                <p><b>&copy;2023 All Rights Reserved.</b></p>
+                <h4>Made by Team Spirit with ❤️</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
